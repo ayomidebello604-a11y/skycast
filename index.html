@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-cloud-sun"></i> SkyCast</h1>
+    </header>
+    <main>
+        <section class="inputs">
+            <h2>Enter Location:</h2>
+            <div class="input-group">
+                <input type="text" id="location" placeholder="e.g New York,NY">
+                <button onclick="getWeather()"><i class="fas fa-search"></i></button>
+            </div>
+        </section>
+         <div id="advise"> </div>
+        <div id="result" class="weather-grid"></div>
+    </main>
+</body>
+<script src="weather.js"></script>
+</html>
