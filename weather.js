@@ -44,7 +44,7 @@ async function getWeather() {
             document.getElementById("advise").innerHTML = "<p style='color: whitesmoke; font-weight: bold;'>It's quite hot outside! Stay hydrated and avoid prolonged sun exposure.</p>";
         }
          else if (weatherData.main.temp < 10) {
-            document.getElementById("advise").innerHTML = "<p style='color: blue; font-weight: bold;'>It's quite cold outside! Dress warmly and take care in chilly conditions.</p>";
+            document.getElementById("advise").innerHTML = "<p style='color: skyblue; font-weight: bold;'>It's quite cold outside! Dress warmly and take care in chilly conditions.</p>";
             alert("It's quite cold outside! Dress warmly and take care in chilly conditions.")
         }
         
